@@ -1,0 +1,321 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @font-face{
+            font-family: 'rock';
+            src: url(../Rocks\ Personal\ Use.ttf) format(truetype),
+            url(../Rocks-Personal-Use.woff) format(woff);
+        }
+        body {
+            line-height: 1.6;
+            font-size: xx-large;
+            background-color: #000;
+        } 
+
+       /* .menu-toggle {
+            display: none;
+        }
+
+        .menu-icon {
+            cursor: pointer;
+            height: 100vh;
+            width: 400px;
+            top: 10vh;
+            right: -1000px;
+            transition: right 2s ease;
+            background-color: gray;
+        }
+
+      /*  .menu-toggle:checked + .menu-icon + .nav ul {
+            display: block;
+        } */
+
+        /* Header */
+        .header {
+            background-color: #808080a6;
+            padding: 15px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            max-height: 100px;
+        }
+
+        .header-container {
+            font-family: 'rock';
+            max-width: 1200px;
+            gap: 10px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            position: relative;
+            max-height: 100px;
+        }
+
+        .nav {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        .nav a {
+            font-family: 'rock';
+            color: white;
+            text-decoration: none;
+            font-size: xx-large;
+            font-weight: bold;
+            transition: color 0.3s;
+            display: block;
+        }
+
+        .nav a:hover {
+            color: red;
+        }
+
+        /* banner */
+        .banner {
+            background-image: url(../imagenes/mollo2.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            min-height: 750px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .banner-contenido {
+            font-family: 'rock';
+            text-align: center;
+            color: white;
+            max-width: 300px;
+            padding: 20px;
+            margin-top: 400px;
+        }
+
+        .banner-contenido h2{
+            background-color:#808080a6;
+        }
+
+        .spotify-link {
+            display: inline-block;
+            background-color: red;
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .spotify-link:hover {
+            background-color:firebrick
+        }
+
+        /* Album Section */
+        .seccion1 {
+            padding: 80px 0;
+        }
+
+        .contenido {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .disco-contenido {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .disco-info h2 {
+            font-family: 'rock';
+            font-size: 5rem;
+            margin-bottom: 0px;
+            color: white;
+            font-weight: bold;
+            background-color: #00000099;
+        }
+
+        .disco-info {
+            background-image: url(../imagenes/1900x1900-000000-80-0-0.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .disco-info p {
+            font-family: Arial;
+            font-size: large;
+            background-color: #00000099;
+            line-height: 1.8;
+            color: white
+        }
+
+        .disco-temas {
+            background-color: #000;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* SECCION 2 */
+        .seccion-video {
+            padding: 80px 0;
+        }
+
+        .seccion-video h2 {
+            font-family: 'rock';
+            text-align: center;
+            font-size: 5rem;
+            margin-bottom: 30px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .video-contenido {
+            text-align: center;
+        }
+
+        /* SECCION 3 */
+        .gira {
+            padding: 80px;
+            color: white;
+        }
+
+        .gira h2 {
+            font-family: 'rock';
+            text-align: center;
+            font-size: 5rem;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+
+        .gira-fechas {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .gira-fecha {
+            font-family: arial;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-bottom: 1px solid gray;
+            font-size: 1rem;
+        }
+        
+        .boton-entradas{
+            font-family: 'rock';
+            display: inline-block;
+            background-color: red;
+            color: black;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            transition: background-color 0.3s;
+        }
+
+        .boton-entradas:hover {
+            background-color:firebrick
+        }
+
+        .div-a{
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        /* Footer */
+        .footer {
+            background-color: #808080de;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .footer-contenido {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .footer-contenido {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: white;
+            font-size: 2rex;
+        }
+
+        .footer-contenido a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .redes-sociales {
+            display: flex;
+            gap: 15px;
+        }
+
+        #disco {
+            scroll-margin-top: 100px;
+        }
+
+        #videos {
+            scroll-margin-top: 100px;
+        }
+
+        #gira {
+            scroll-margin-top: 100px;
+        }
+
+        #panelHamburguesa{
+            height: 100vh;
+            width: 400px;
+            position: fixed;
+            top: 10vh;
+            right: -1000px;
+            transition: right 2s linear;
+
+        }
+
+        #panelHamburguesa:target{
+            right: 0;
+        }
+
+        #panelHamburguesa:target ~ header nav #abrir {
+            display: none;
+        }
+
+        #panelHamburguesa:target ~ header nav #cerrar {
+            display: inline-block;
+        }
+
+        .burger{
+            font-family: 'rock';
+            display: block;
+            text-align: center;
+            background-color: #808080de;
+            border: 1px solid;
+            font-size: 2rem;
+            text-decoration: none;
+            color: white;
+        }
+
+        #cerrar{
+            display: none;
+        }
